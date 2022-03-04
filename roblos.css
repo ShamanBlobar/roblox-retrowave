@@ -1,0 +1,955 @@
+@-moz-document url-prefix("https://www.roblox.com/discover#") {
+body {
+    font-family: HCo Gotham SSm, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    margin-bottom: 168px;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.dark-theme .rbx-left-col {
+    box-shadow: 0 0 60px 0 rgb(255 177 1 / 97%);
+    background-color: #49124a;
+}
+
+.dark-theme .section-content {
+    background-color: #38013478;
+    color: #fff;
+}
+
+@-webkit-keyframes Test {
+    0% {
+        box-shadow: 0 0 60px 0 #b90025;
+    }
+    5% {
+        box-shadow: 0 0 60px 0 #ca381c
+    }
+    10% {
+        box-shadow: 0 0 60px 0 #d29e0a;
+    }
+    20% {
+        box-shadow: 0 0 60px 0 #ffa200;
+    }
+    30% {
+        box-shadow: 0 0 60px 0 #dee623;
+    }
+    40% {
+        box-shadow: 0 0 60px 0 #fbff00;
+    }
+    50% {
+        box-shadow: 0 0 60px 0 #4adb10
+    }
+    60% {
+        box-shadow: 0 0 60px 0 #4cae0f;
+    }
+    70% {
+        box-shadow: 0 0 60px 0 #125bd5;
+    }
+    80% {
+        box-shadow: 0 0 60px 0 #061984;
+    }
+    90% {
+        box-shadow: 0 0 60px 0 #49075b;
+    }
+    95% {
+        box-shadow: 0 0 60px 0 #950751;
+    }
+    100% {
+        box-shadow: 0 0 60px 0 #dd0f38;
+    }
+}
+
+.dark-theme .rbx-left-col {
+    -webkit-animation: Test 5s infinite ease-in;
+}
+
+.game-main-content .game-calls-to-action .game-name {
+    text-align: left;
+    overflow: hidden;
+}
+
+.dark-theme .rbx-tabs-horizontal .rbx-tab .rbx-tab-heading {
+    text-align: center;
+    color: #bdbebe;
+}
+
+.dark-theme .slide-switcher.groups {
+    background-color: #1b012085;
+    color: #fff;
+}
+
+.dark-theme .slide-switcher .slide-item-container .slide-item-container-left {
+    background-color: #1d191d1f;
+}
+
+.container-main {
+    min-height: 60%;
+    min-height: calc(100% - 183px);
+    margin: 40px auto 0;
+    position: relative;
+    padding-bottom: 40px;
+    display: flow-root;
+}
+
+.avatar-card-fullbody .avatar-card-image,
+.avatar-card-fullbody .avatar-card-link,
+.avatar .avatar-card-image,
+.avatar .avatar-card-link {
+    border-radius: 0%;
+    border-width: 3px;
+    border-color: #aa14f7;
+    border-style: inset;
+}
+
+.dark-theme .layer {
+    background-color: #1b012085;
+}
+
+.dark-theme .rbx-header .navbar-search {
+    background-color: #ef00ff;
+}
+
+.dark-theme .avatar .avatar-card-image {
+    background-color: #6f16a79e;
+}
+
+.avatar-card-fullbody .avatar-card-image,
+.avatar-card-fullbody .avatar-card-link,
+.avatar .avatar-card-image,
+.avatar .avatar-card-link {
+    border-radius: 20%;
+    border-color: #aa14f7;
+    border-style: inset;
+}
+
+.dark-theme .avatar-container .avatar-card-image,
+.dark-theme .avatar-container img {
+    background-color: #bf28db8a;
+}
+
+
+
+li,
+ul {
+    list-style: none;
+    margin: 0;
+    text-align: left;
+    padding: 0;
+}
+
+.gotham-font .font-caption-body,
+.gotham-font .font-caption-body:active,
+.gotham-font .font-caption-body:focus,
+.gotham-font .font-caption-body:hover,
+.gotham-font .font-caption-body:link,
+.gotham-font .font-caption-body:visited,
+.gotham-font .tooltip .tooltip-inner,
+.gotham-font .tooltip .tooltip-inner:active,
+.gotham-font .tooltip .tooltip-inner:focus,
+.gotham-font .tooltip .tooltip-inner:hover,
+.gotham-font .tooltip .tooltip-inner:link,
+.gotham-font .tooltip .tooltip-inner:visited {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.dark-theme .slide-switcher .slide-item-container .slide-item-container-right {
+    background-color: #650876;
+    color: #fff;
+}
+
+.dark-theme .profile-avatar-right .profile-avatar-mask {
+    background-color: #1b012085;
+    color: #fff;
+}
+
+.dark-theme .rbx-header {
+    background-color: #8d0c83 !important;
+}
+
+.dark-theme .content {
+    background-color: #f0f8ff00;
+}
+
+.dark-theme {
+    background-image: url(https://thumbs.gfycat.com/BraveOptimalBaleenwhale-size_restricted.gif);
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+.dark-theme .container-footer {
+    background-color: #081130;
+}
+
+.dark-theme .item-card-container .item-card-thumb-container {
+    background-color: rgb(0 0 0 / 0%);
+}
+
+.dark-theme .chat-main {
+    background-color: #450f60;
+    color: #fff;
+}
+
+.dark-theme .chat-container .chat-main .chat-header {
+    background-color: #b138a8;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-header {
+    background-color: #4d0356;
+}
+
+/* Made by Ahs#5282 :D */
+.dark-theme .dialogs .dialog-container .dialog-body {
+    background-color: rgb(58 38 90);
+    color: #fff;
+}
+
+.dark-theme .rbx-tabs-horizontal .nav-tabs {
+    background-color: #5f2a81;
+    color: #fff;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-inbound .dialog-message {
+    background-color: #451b99;
+    color: #fff;
+    border: 1px solid #6283c5;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-inbound .dialog-triangle:after {
+    border-width: 0 2px 2px 0;
+    border-color: transparent #451b99 transparent transparent;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-inbound .dialog-triangle:before {
+    border-width: 0 4px 4px 0;
+    border-color: transparent #6283c5 transparent transparent;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-message-container .dialog-message {
+    background-color: #d35b15;
+    border: 1px solid #ef984e;
+    color: #fff;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-message-container .link-card-container.dialog-triangle:after,
+.dark-theme .dialogs .dialog-container .dialog-message-container .link-card-container.dialog-triangle:before,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle.message-is-sending:after,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle.message-is-sending:before,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle:after,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle:before {
+    border-color: transparent transparent transparent #ef984e;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-message-container .link-card-container.dialog-triangle:after,
+.dark-theme .dialogs .dialog-container .dialog-message-container .link-card-container.dialog-triangle:before,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle.message-is-sending:after,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle.message-is-sending:before,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle:after,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle:before {
+    border-color: transparent transparent transparent #2a106300;
+}
+
+.dark-theme .rbx-tab .rbx-tab-heading {
+    background-color: #531554;
+    color: #fff;
+}
+
+.dark-theme .stack .stack-list .stack-row {
+    background-color: #ac1eaf8a;
+    color: #fff;
+}
+
+.dark-theme .horizontal-scroller .scroller .spacer {
+    background-color: #bb3dbd59;
+}
+
+.dark-theme .scroller:focus,
+.dark-theme .scroller:hover {
+    background-color: rgb(155 13 129 / 75%);
+}
+
+.dark-theme .scroller {
+    background-color: #a10c65ed;
+    border: none;
+}
+
+.dark-theme .scroller.disabled {
+    background-color: #480046;
+    border: none;
+    opacity: .5;
+}
+
+.gotham-font .font-title,
+.gotham-font .h1,
+.gotham-font .h2,
+.gotham-font h1,
+.gotham-font h2 {
+    font-family: Helvetica;
+    letter-spacing: 5px;
+    font-size: 32px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.dark-theme .section-content {
+    background-color: #1b012085;
+    color: #fff;
+}
+
+.dark-theme .rbx-header .text-header, .dark-theme .rbx-header .text-header:active, .dark-theme .rbx-header .text-header:focus, .dark-theme .rbx-header .text-header:hover, .dark-theme .rbx-header .text-header:link, .dark-theme .rbx-header .text-header:visited {
+    color: #fff;
+    text-align: center;
+}
+
+/*made by Ash.#5282*/
+}
+
+@-moz-document url-prefix("https://www.roblox.com/home") {
+body {
+    font-family: HCo Gotham SSm, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    margin-bottom: 168px;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.dark-theme .rbx-left-col {
+    box-shadow: 0 0 60px 0 rgb(255 177 1 / 97%);
+    background-color: #49124a;
+}
+
+@-webkit-keyframes Test {
+    0% {
+        box-shadow: 0 0 60px 0 #b90025;
+    }
+    5% {
+        box-shadow: 0 0 60px 0 #ca381c
+    }
+    10% {
+        box-shadow: 0 0 60px 0 #d29e0a;
+    }
+    20% {
+        box-shadow: 0 0 60px 0 #ffa200;
+    }
+    30% {
+        box-shadow: 0 0 60px 0 #dee623;
+    }
+    40% {
+        box-shadow: 0 0 60px 0 #fbff00;
+    }
+    50% {
+        box-shadow: 0 0 60px 0 #4adb10
+    }
+    60% {
+        box-shadow: 0 0 60px 0 #4cae0f;
+    }
+    70% {
+        box-shadow: 0 0 60px 0 #125bd5
+    }
+    80% {
+        box-shadow: 0 0 60px 0 #061984
+    }
+    90% {
+        box-shadow: 0 0 60px 0 #49075b
+    }
+    95% {
+        box-shadow: 0 0 60px 0 #950751
+    }
+    100% {
+        box-shadow: 0 0 60px 0 #dd0f38
+    }
+}
+
+.dark-theme .rbx-left-col {
+    -webkit-animation: Test 5s infinite ease-in;
+}
+
+.game-main-content .game-calls-to-action .game-name {
+    text-align: left;
+    overflow: hidden;
+}
+
+.dark-theme .rbx-tabs-horizontal .rbx-tab .rbx-tab-heading {
+    text-align: center;
+    color: #bdbebe;
+}
+
+.dark-theme .slide-switcher.groups {
+    background-color: #1b012085;
+    color: #fff;
+}
+
+.dark-theme .slide-switcher .slide-item-container .slide-item-container-left {
+    background-color: #1d191d1f;
+}
+
+.container-main {
+    min-height: 60%;
+    min-height: calc(100% - 183px);
+    margin: 40px auto 0;
+    position: relative;
+    padding-bottom: 40px;
+    display: flex !important;
+}
+
+.avatar-card-fullbody .avatar-card-image,
+.avatar-card-fullbody .avatar-card-link,
+.avatar .avatar-card-image,
+.avatar .avatar-card-link {
+    border-radius: 0%;
+    border-width: 3px;
+    border-color: #aa14f7;
+    border-style: inset;
+}
+
+.dark-theme .layer {
+    background-color: #1b012085;
+}
+
+.dark-theme .rbx-header .navbar-search {
+    background-color: #ef00ff;
+}
+
+.dark-theme .avatar .avatar-card-image {
+    background-color: #6f16a79e;
+}
+
+.avatar-card-fullbody .avatar-card-image,
+.avatar-card-fullbody .avatar-card-link,
+.avatar .avatar-card-image,
+.avatar .avatar-card-link {
+    border-radius: 20%;
+    border-color: #aa14f7;
+    border-style: inset;
+}
+
+.dark-theme .avatar-container .avatar-card-image,
+.dark-theme .avatar-container img {
+    background-color: #bf28db8a;
+}
+
+
+
+li,
+ul {
+    list-style: none;
+    margin: 0;
+    text-align: left;
+    padding: 0;
+}
+
+.gotham-font .font-caption-body,
+.gotham-font .font-caption-body:active,
+.gotham-font .font-caption-body:focus,
+.gotham-font .font-caption-body:hover,
+.gotham-font .font-caption-body:link,
+.gotham-font .font-caption-body:visited,
+.gotham-font .tooltip .tooltip-inner,
+.gotham-font .tooltip .tooltip-inner:active,
+.gotham-font .tooltip .tooltip-inner:focus,
+.gotham-font .tooltip .tooltip-inner:hover,
+.gotham-font .tooltip .tooltip-inner:link,
+.gotham-font .tooltip .tooltip-inner:visited {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.dark-theme .slide-switcher .slide-item-container .slide-item-container-right {
+    background-color: #650876;
+    color: #fff;
+}
+
+.dark-theme .profile-avatar-right .profile-avatar-mask {
+    background-color: #1b012085;
+    color: #fff;
+}
+
+.dark-theme .rbx-header {
+    background-color: #8d0c83 !important;
+}
+
+.dark-theme .content {
+    background-color: #f0f8ff00;
+}
+
+.dark-theme {
+    background-image: url(https://thumbs.gfycat.com/BraveOptimalBaleenwhale-size_restricted.gif);
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+.dark-theme .container-footer {
+    background-color: #081130;
+}
+
+.dark-theme .item-card-container .item-card-thumb-container {
+    background-color: rgb(0 0 0 / 0%);
+}
+
+.dark-theme .chat-main {
+    background-color: #450f60;
+    color: #fff;
+}
+
+.dark-theme .chat-container .chat-main .chat-header {
+    background-color: #b138a8;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-header {
+    background-color: #4d0356;
+}
+
+/* Made by Ahs#5282 :D */
+.dark-theme .dialogs .dialog-container .dialog-body {
+    background-color: rgb(58 38 90);
+    color: #fff;
+}
+
+.dark-theme .rbx-tabs-horizontal .nav-tabs {
+    background-color: #5f2a81;
+    color: #fff;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-inbound .dialog-message {
+    background-color: #451b99;
+    color: #fff;
+    border: 1px solid #6283c5;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-inbound .dialog-triangle:after {
+    border-width: 0 2px 2px 0;
+    border-color: transparent #451b99 transparent transparent;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-inbound .dialog-triangle:before {
+    border-width: 0 4px 4px 0;
+    border-color: transparent #6283c5 transparent transparent;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-message-container .dialog-message {
+    background-color: #d35b15;
+    border: 1px solid #ef984e;
+    color: #fff;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-message-container .link-card-container.dialog-triangle:after,
+.dark-theme .dialogs .dialog-container .dialog-message-container .link-card-container.dialog-triangle:before,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle.message-is-sending:after,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle.message-is-sending:before,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle:after,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle:before {
+    border-color: transparent transparent transparent #ef984e;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-message-container .link-card-container.dialog-triangle:after,
+.dark-theme .dialogs .dialog-container .dialog-message-container .link-card-container.dialog-triangle:before,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle.message-is-sending:after,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle.message-is-sending:before,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle:after,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle:before {
+    border-color: transparent transparent transparent #2a106300;
+}
+
+.dark-theme .rbx-tab .rbx-tab-heading {
+    background-color: #531554;
+    color: #fff;
+}
+
+.dark-theme .stack .stack-list .stack-row {
+    background-color: #ac1eaf8a;
+    color: #fff;
+}
+
+.dark-theme .horizontal-scroller .scroller .spacer {
+    background-color: #bb3dbd59;
+}
+
+.dark-theme .scroller:focus,
+.dark-theme .scroller:hover {
+    background-color: rgb(155 13 129 / 75%);
+}
+
+.dark-theme .scroller {
+    background-color: #a10c65ed;
+    border: none;
+}
+
+.dark-theme .scroller.disabled {
+    background-color: #480046;
+    border: none;
+    opacity: .5;
+}
+
+.gotham-font .font-title,
+.gotham-font .h1,
+.gotham-font .h2,
+.gotham-font h1,
+.gotham-font h2 {
+    font-family: Helvetica;
+    letter-spacing: 5px;
+    font-size: 32px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.dark-theme .section-content {
+    background-color: #1b012085;
+    color: #fff;
+}
+
+.dark-theme .rbx-header .text-header, .dark-theme .rbx-header .text-header:active, .dark-theme .rbx-header .text-header:focus, .dark-theme .rbx-header .text-header:hover, .dark-theme .rbx-header .text-header:link, .dark-theme .rbx-header .text-header:visited {
+    color: #fff;
+    text-align: center;
+}
+}
+
+@-moz-document url-prefix("https://www.roblox.com/games/"), url-prefix("https://www.roblox.com/catalog"), url-prefix("https://www.roblox.com/users/"), url-prefix("https://www.roblox.com/my/avatar") {
+body {
+    font-family: HCo Gotham SSm, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    margin-bottom: 168px;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.dark-theme .rbx-left-col {
+    box-shadow: 0 0 60px 0 rgb(255 177 1 / 97%);
+    background-color: #49124a;
+}
+
+@-webkit-keyframes Test {
+    0% {
+        box-shadow: 0 0 60px 0 #b90025;
+    }
+    5% {
+        box-shadow: 0 0 60px 0 #ca381c
+    }
+    10% {
+        box-shadow: 0 0 60px 0 #d29e0a;
+    }
+    20% {
+        box-shadow: 0 0 60px 0 #ffa200;
+    }
+    30% {
+        box-shadow: 0 0 60px 0 #dee623;
+    }
+    40% {
+        box-shadow: 0 0 60px 0 #fbff00;
+    }
+    50% {
+        box-shadow: 0 0 60px 0 #4adb10
+    }
+    60% {
+        box-shadow: 0 0 60px 0 #4cae0f;
+    }
+    70% {
+        box-shadow: 0 0 60px 0 #125bd5
+    }
+    80% {
+        box-shadow: 0 0 60px 0 #061984
+    }
+    90% {
+        box-shadow: 0 0 60px 0 #49075b
+    }
+    95% {
+        box-shadow: 0 0 60px 0 #950751
+    }
+    100% {
+        box-shadow: 0 0 60px 0 #dd0f38
+    }
+}
+
+.dark-theme .rbx-left-col {
+    -webkit-animation: Test 5s infinite ease-in;
+}
+
+.game-main-content .game-calls-to-action .game-name {
+    text-align: left;
+    overflow: hidden;
+}
+
+.dark-theme .rbx-tabs-horizontal #horizontal-tabs .rbx-tab:not(.active) a:not(:hover) {
+    background-color: #371358;
+    color: #fff;
+}
+
+.dark-theme .rbx-tabs-horizontal .rbx-tab .rbx-tab-heading {
+    text-align: center;
+    color: #bdbebe;
+}
+
+.dark-theme .slide-switcher.groups {
+    background-color: #1b012085;
+    color: #fff;
+}
+
+.dark-theme .slide-switcher .slide-item-container .slide-item-container-left {
+    background-color: #1d191d1f;
+}
+
+.container-main {
+    min-height: 60%;
+    min-height: calc(100% - 183px);
+    margin: 40px auto 0;
+    position: relative;
+    padding-bottom: 40px;
+    display: flow-root;
+}
+
+.avatar-card-fullbody .avatar-card-image,
+.avatar-card-fullbody .avatar-card-link,
+.avatar .avatar-card-image,
+.avatar .avatar-card-link {
+    border-radius: 0%;
+    border-width: 3px;
+    border-color: #aa14f7;
+    border-style: inset;
+}
+
+.dark-theme .layer {
+    background-color: #1b012085;
+}
+
+.dark-theme .rbx-header .navbar-search {
+    background-color: #ef00ff;
+}
+
+.dark-theme .avatar .avatar-card-image {
+    background-color: #6f16a79e;
+}
+
+.avatar-card-fullbody .avatar-card-image,
+.avatar-card-fullbody .avatar-card-link,
+.avatar .avatar-card-image,
+.avatar .avatar-card-link {
+    border-radius: 20%;
+    border-color: #aa14f7;
+    border-style: inset;
+}
+
+.dark-theme .avatar-container .avatar-card-image,
+.dark-theme .avatar-container img {
+    background-color: #bf28db8a;
+}
+
+
+
+li,
+ul {
+    list-style: none;
+    margin: 0;
+    text-align: left;
+    padding: 0;
+}
+
+.gotham-font .font-caption-body,
+.gotham-font .font-caption-body:active,
+.gotham-font .font-caption-body:focus,
+.gotham-font .font-caption-body:hover,
+.gotham-font .font-caption-body:link,
+.gotham-font .font-caption-body:visited,
+.gotham-font .tooltip .tooltip-inner,
+.gotham-font .tooltip .tooltip-inner:active,
+.gotham-font .tooltip .tooltip-inner:focus,
+.gotham-font .tooltip .tooltip-inner:hover,
+.gotham-font .tooltip .tooltip-inner:link,
+.gotham-font .tooltip .tooltip-inner:visited {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.dark-theme .slide-switcher .slide-item-container .slide-item-container-right {
+    background-color: #650876;
+    color: #fff;
+}
+
+.dark-theme .profile-avatar-right .profile-avatar-mask {
+    background-color: #1b012085;
+    color: #fff;
+}
+
+.dark-theme .rbx-header {
+    background-color: #8d0c83 !important;
+}
+
+.dark-theme .content {
+    background-color: #f0f8ff00;
+}
+
+.dark-theme {
+    background-image: url(https://thumbs.gfycat.com/BraveOptimalBaleenwhale-size_restricted.gif);
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+.dark-theme .container-footer {
+    background-color: #081130;
+}
+
+.dark-theme .item-card-container .item-card-thumb-container {
+    background-color: rgb(0 0 0 / 0%);
+}
+
+.dark-theme .chat-main {
+    background-color: #450f60;
+    color: #fff;
+}
+
+.dark-theme .chat-container .chat-main .chat-header {
+    background-color: #b138a8;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-header {
+    background-color: #4d0356;
+}
+
+/* Made by Ahs#5282 :D */
+.dark-theme .dialogs .dialog-container .dialog-body {
+    background-color: rgb(58 38 90);
+    color: #fff;
+}
+
+.dark-theme .rbx-tabs-horizontal .nav-tabs {
+    background-color: #5f2a81;
+    color: #fff;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-inbound .dialog-message {
+    background-color: #451b99;
+    color: #fff;
+    border: 1px solid #6283c5;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-inbound .dialog-triangle:after {
+    border-width: 0 2px 2px 0;
+    border-color: transparent #451b99 transparent transparent;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-inbound .dialog-triangle:before {
+    border-width: 0 4px 4px 0;
+    border-color: transparent #6283c5 transparent transparent;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-message-container .dialog-message {
+    background-color: #d35b15;
+    border: 1px solid #ef984e;
+    color: #fff;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-message-container .link-card-container.dialog-triangle:after,
+.dark-theme .dialogs .dialog-container .dialog-message-container .link-card-container.dialog-triangle:before,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle.message-is-sending:after,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle.message-is-sending:before,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle:after,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle:before {
+    border-color: transparent transparent transparent #ef984e;
+}
+
+.dark-theme .dialogs .dialog-container .dialog-message-container .link-card-container.dialog-triangle:after,
+.dark-theme .dialogs .dialog-container .dialog-message-container .link-card-container.dialog-triangle:before,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle.message-is-sending:after,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle.message-is-sending:before,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle:after,
+.dark-theme .dialogs .dialog-container .dialog-message-container.message-cluster-master .dialog-triangle:before {
+    border-color: transparent transparent transparent #2a106300;
+}
+
+.dark-theme .rbx-tab .rbx-tab-heading {
+    background-color: #531554;
+    color: #fff;
+}
+
+.dark-theme .stack .stack-list .stack-row {
+    background-color: #ac1eaf8a;
+    color: #fff;
+}
+
+.dark-theme .horizontal-scroller .scroller .spacer {
+    background-color: #bb3dbd59;
+}
+
+.dark-theme .scroller:focus,
+.dark-theme .scroller:hover {
+    background-color: rgb(155 13 129 / 75%);
+}
+
+.dark-theme .scroller {
+    background-color: #a10c65ed;
+    border: none;
+}
+
+.dark-theme .scroller.disabled {
+    background-color: #480046;
+    border: none;
+    opacity: .5;
+}
+
+.thumbnail-2d-container img {
+    background-color: #8b14718a;
+    width: 100%;
+    height: 100%;
+    transition: opacity .5s ease;
+}
+
+a,
+a:active,
+a:focus,
+a:hover,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.gotham-font .font-title,
+.gotham-font .h1,
+.gotham-font .h2,
+.gotham-font h1,
+.gotham-font h2 {
+    font-family: Helvetica;
+    letter-spacing: 5px;
+    font-size: 32px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.dark-theme .section-content {
+    background-color: #1b012085;
+    color: #fff;
+}
+
+.dark-theme .rbx-tabs-vertical .category-tabs .menu-vertical {
+    background-color: #760b50;
+    color: #fff;
+}
+
+.dark-theme .menu-vertical .menu-option .menu-secondary {
+    background-color: #6e1764;
+    color: #fff;
+}
+
+.dark-theme .section-content.remove-panel {
+    background-color: #1c052691;
+}
+
+.dark-theme .rbx-header .text-header, .dark-theme .rbx-header .text-header:active, .dark-theme .rbx-header .text-header:focus, .dark-theme .rbx-header .text-header:hover, .dark-theme .rbx-header .text-header:link, .dark-theme .rbx-header .text-header:visited {
+    color: #fff;
+    text-align: center;
+}
+}
