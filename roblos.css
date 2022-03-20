@@ -21,6 +21,24 @@ body {
     color: #fff;
 }
 
+.dark-theme .text,
+.dark-theme .text-date-hint,
+.dark-theme .text-default,
+.dark-theme .text-description,
+.dark-theme .text-footer,
+.dark-theme .text-info,
+.dark-theme .text-label,
+.dark-theme .text-secondary,
+.dark-theme p {
+    color: #efefef;
+}
+
+.dark-theme .container-empty,
+.dark-theme .section-content-off {
+    background-color: #7c29749c;
+    color: #ffffff;
+}
+
 @-webkit-keyframes Test {
     0% {
         box-shadow: 0 0 60px 0 #b90025;
@@ -301,7 +319,12 @@ ul {
     color: #fff;
 }
 
-.dark-theme .rbx-header .text-header, .dark-theme .rbx-header .text-header:active, .dark-theme .rbx-header .text-header:focus, .dark-theme .rbx-header .text-header:hover, .dark-theme .rbx-header .text-header:link, .dark-theme .rbx-header .text-header:visited {
+.dark-theme .rbx-header .text-header,
+.dark-theme .rbx-header .text-header:active,
+.dark-theme .rbx-header .text-header:focus,
+.dark-theme .rbx-header .text-header:hover,
+.dark-theme .rbx-header .text-header:link,
+.dark-theme .rbx-header .text-header:visited {
     color: #fff;
     text-align: center;
 }
@@ -607,7 +630,12 @@ ul {
     color: #fff;
 }
 
-.dark-theme .rbx-header .text-header, .dark-theme .rbx-header .text-header:active, .dark-theme .rbx-header .text-header:focus, .dark-theme .rbx-header .text-header:hover, .dark-theme .rbx-header .text-header:link, .dark-theme .rbx-header .text-header:visited {
+.dark-theme .rbx-header .text-header,
+.dark-theme .rbx-header .text-header:active,
+.dark-theme .rbx-header .text-header:focus,
+.dark-theme .rbx-header .text-header:hover,
+.dark-theme .rbx-header .text-header:link,
+.dark-theme .rbx-header .text-header:visited {
     color: #fff;
     text-align: center;
 }
@@ -624,6 +652,23 @@ body {
     margin-bottom: 168px;
     overflow-y: scroll;
     text-align: center;
+}
+
+.dark-theme .avatar-card-container {
+    background-color: #542970bf;
+    color: #fff;
+}
+
+.dark-theme .avatar-card-btns {
+    background-color: #1f082645;
+    color: #fff;
+}
+
+.dark-theme .avatar-card-btns .accept-friend {
+    background-color: #dd13c87a;
+    border-color: #df29f3;
+    color: #ffffff;
+    border-radius: 8px;
 }
 
 .dark-theme .rbx-left-col {
@@ -948,7 +993,12 @@ a:visited {
     background-color: #1c052691;
 }
 
-.dark-theme .rbx-header .text-header, .dark-theme .rbx-header .text-header:active, .dark-theme .rbx-header .text-header:focus, .dark-theme .rbx-header .text-header:hover, .dark-theme .rbx-header .text-header:link, .dark-theme .rbx-header .text-header:visited {
+.dark-theme .rbx-header .text-header,
+.dark-theme .rbx-header .text-header:active,
+.dark-theme .rbx-header .text-header:focus,
+.dark-theme .rbx-header .text-header:hover,
+.dark-theme .rbx-header .text-header:link,
+.dark-theme .rbx-header .text-header:visited {
     color: #fff;
     text-align: center;
 }
